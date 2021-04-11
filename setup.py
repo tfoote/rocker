@@ -43,6 +43,7 @@ kwargs = {
         'rocker.extensions': [
             'devices = rocker.extensions:Devices',
             'dev_helpers = rocker.extensions:DevHelpers',
+            'cuda = rocker.nvidia_extension:Cuda',
             'env = rocker.extensions:Environment',
             'git = rocker.git_extension:Git',
             'home = rocker.extensions:HomeDir',
